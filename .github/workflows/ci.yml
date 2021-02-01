@@ -1,5 +1,5 @@
 
-name:  Auto Deploy
+name:  Deploy Preview
 on:
   push:
     branches:
