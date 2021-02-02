@@ -20,7 +20,7 @@ document.addEventListener("scroll", function () {
       toToggle[i].classList.remove("text-white");
     }
     header.classList.add("shadow");
-    navcontent.classList.remove("bg-gray-100");
+    header.classList.remove("gradient");
     navcontent.classList.add("bg-white");
   } else {
     header.classList.remove("bg-white");
@@ -36,7 +36,7 @@ document.addEventListener("scroll", function () {
 
     header.classList.remove("shadow");
     navcontent.classList.remove("bg-white");
-    navcontent.classList.add("bg-gray-100");
+    header.classList.add("gradient");
   }
 });
 
