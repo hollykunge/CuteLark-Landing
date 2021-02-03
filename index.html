@@ -17,6 +17,24 @@
       .gradient {
         background-color: #096dd9;
       }
+      .coming-soon {
+        position: relative;
+      }
+      .coming-soon:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        content: "敬请期待";
+        z-index: 20;
+        background-color: rgba(0,0,0,.4);
+        border-radius: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 45px
+      }
     </style>
     <script src="./assets/js/navaction.js" defer></script>
   </head>
@@ -153,7 +171,7 @@
               <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-orange-500 hidden sm:block"></div>
             </div>
           </section>
-          <section class="flex">
+          <section class="flex coming-soon">
             <div class="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
               <div class="w-full flex md:flex-col bg-gradient-to-br from-pink-500 to-rose-500">
                 <div class="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
